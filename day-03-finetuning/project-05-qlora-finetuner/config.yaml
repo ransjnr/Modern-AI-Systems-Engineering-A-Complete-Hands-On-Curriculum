@@ -1,0 +1,13 @@
+base_model: "TinyLlama/TinyLlama-1.1B-Chat-v1.0"   # small enough for a free GPU
+dataset_path: "data/train.jsonl"
+output_dir: "adapters"
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules: ["q_proj", "v_proj"]
+train:
+  epochs: 3
+  batch_size: 4
+  learning_rate: 0.0002
+  max_seq_len: 512

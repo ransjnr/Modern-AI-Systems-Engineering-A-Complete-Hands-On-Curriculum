@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.python-version
+
+# Poetry
+poetry.lock
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.key
+secrets/
+
+# Data & models (track with DVC, not Git)
+*.joblib
+*.pkl
+*.bin
+*.safetensors
+*.gguf
+data/raw/
+data/processed/
+models/
+*.csv
+!**/sample*.csv
+!**/seed*.csv
+
+# ML / experiment tracking
+mlruns/
+.mlflow/
+.dvc/cache/
+.llm_cache.db
+*.sqlite
+*.db
+!**/seed*.db
+
+# LangGraph / agent work dirs
+coding/
+.langgraph_api/
+
+# Caches & tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

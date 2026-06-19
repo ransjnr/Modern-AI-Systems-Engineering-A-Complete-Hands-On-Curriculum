@@ -1,0 +1,9 @@
+prepare:
+  n_rows: 6000
+  seed: 42
+featurize:
+  scale: true
+train:
+  n_estimators: 200
+  max_depth: 4
+  test_size: 0.2

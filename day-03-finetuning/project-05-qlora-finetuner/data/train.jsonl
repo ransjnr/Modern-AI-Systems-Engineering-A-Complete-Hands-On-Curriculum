@@ -1,0 +1,3 @@
+{"instruction": "Explain embeddings simply.", "response": "Embeddings turn text into a list of numbers so a computer can measure how similar two pieces of meaning are."}
+{"instruction": "What is RAG?", "response": "Retrieval-Augmented Generation: fetch relevant documents, then let the model answer using them so it stays grounded."}
+{"instruction": "Define overfitting.", "response": "When a model memorises the training data and performs worse on new, unseen data."}

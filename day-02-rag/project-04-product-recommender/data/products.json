@@ -1,0 +1,8 @@
+[
+  {"id": "p1", "name": "TrailGrip Running Shoes", "desc": "Lightweight breathable running shoes for long-distance road and marathon training."},
+  {"id": "p2", "name": "AquaPure Water Bottle", "desc": "Insulated stainless steel bottle that keeps drinks cold for 24 hours."},
+  {"id": "p3", "name": "PowerCore Earbuds", "desc": "Wireless noise-cancelling earbuds with 30-hour battery for workouts and travel."},
+  {"id": "p4", "name": "FlexFit Yoga Mat", "desc": "Non-slip eco-friendly yoga mat with extra cushioning for joints."},
+  {"id": "p5", "name": "SummitPack Backpack", "desc": "30L hiking backpack with rain cover and ergonomic support for long treks."},
+  {"id": "p6", "name": "MarathonElite Socks", "desc": "Moisture-wicking compression socks designed for distance runners."}
+]
